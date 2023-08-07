@@ -43,7 +43,7 @@ Outer Loop Demo
   - Introduce Tanzu build service 
   - Rolled-out deployment
 
--Q&A
+- Q&A
 
 Appendix:
 To create an Azure User for the action:
