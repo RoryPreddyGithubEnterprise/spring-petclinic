@@ -3,7 +3,7 @@ Introduction to Visual Studio Code
 Spring Boot Extension Pack
 - Extensions included in the pack
 
-Inner Loop Demo
+Inner Loop Demo 
 - Getting Started
   - Spring Initializr integration
   - Use Spring Petclinic from Getting Started guide
@@ -23,25 +23,27 @@ Inner Loop Demo
 - Summarize the end-to-end Spring development experience
 
 Outer Loop Demo
-- Monitor
-  - Open Azure Spring Apps extension
-  - Tanzu live view
-  - Spring dashboard connect live
-    - Beans
-    - Endpoint mapping
-  - Debug live with started node
-- Migrate
-  - Explain openrewrite recipes from Spring Boot language server (3 levels down)
-  - Migrate
-  - (Optional) Show validations for best practices using openrewrite
-- Build
-  - `mvn package -DskipTests`
-- GitHub Action (open springone.yml)
-  - Commit and deploy to Azure Spring Apps
-  Explain the action:
-  - Sets up Microsoft OpenJDK 17 and builds the code
-  - Introduce Tanzu build service 
-  - Rolled-out deployment
+
+- MONITOR
+  - OPEN "Application Live View"
+  - OPEN "View Live Information"
+   - OPEN OwnerController.java
+    - REFRESH ">Spring boot: manage live spring boot process connections"
+    - DEMO 
+      - Beans
+      - Endpoint mapping
+  - DEBUG
+- MIGRATE
+    - MIGRATE ">Spring boot: upgrade spring boot version"
+     - 1 settings
+    - EXPLAIN openrewrite recipes from Spring Boot language server (3 levels down)
+        - (Optional) Show validations for best practices using openrewrite
+    - COMMIT
+- DEPLOY - springone.yml
+    - BUILD
+    - CONTAINER
+      - explain buildpacks
+    - ROLL-OUT
 
 - Q&A
 
